@@ -1,8 +1,8 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "Demo App with Routing built-in (recommended)",
+  "name": "qwik-bcc",
+  "description": "Cycling Club App",
   "engines": {
-    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+    "node": "^20.3.0 || >=21.0.0"
   },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
@@ -47,6 +47,8 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "daisyui": "^4.10.2"
+    "daisyui": "^4.10.2",
+    "dayjs": "^1.11.11",
+    "rrule": "^2.8.1"
   }
 }
