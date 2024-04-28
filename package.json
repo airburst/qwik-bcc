@@ -1,16 +1,8 @@
 {
   "name": "qwik-bcc",
   "description": "Cycling Club App",
-  "engines": {
-    "node": "^20.3.0 || >=21.0.0"
-  },
-  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
-  "private": true,
-  "trustedDependencies": [
-    "sharp"
-  ],
-  "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
   "type": "module",
+  "version": "0.1.0",
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
@@ -25,6 +17,12 @@
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
+  },
+  "dependencies": {
+    "@fontsource-variable/outfit": "^5.0.13",
+    "daisyui": "^4.10.2",
+    "dayjs": "^1.11.11",
+    "rrule": "^2.8.1"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.5.2",
@@ -46,9 +44,13 @@
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.2.1"
   },
-  "dependencies": {
-    "daisyui": "^4.10.2",
-    "dayjs": "^1.11.11",
-    "rrule": "^2.8.1"
-  }
+  "engines": {
+    "node": "^20.3.0 || >=21.0.0"
+  },
+  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
+  "private": true,
+  "trustedDependencies": [
+    "sharp"
+  ],
+  "trustedDependencies-annotation": "Needed for bun to allow running install scripts"
 }
