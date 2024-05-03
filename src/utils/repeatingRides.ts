@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import rrule from "rrule";
+import * as rrule from "rrule";
 import type { RepeatingRide, RepeatingRideDb, TemplateRide } from "../types";
 import { daysInMonth, getNextMonth, isWinter } from "./dates";
 
