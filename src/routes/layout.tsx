@@ -25,7 +25,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <main class="container mx-auto mt-16 flex min-h-[calc(100vh_-_32)] w-full flex-col items-center pb-16 text-neutral-500 sm:mt-24 md:px-4 lg:mt-32 lg:max-w-[1024px]">
+      <main class="container mx-auto mt-16 flex min-h-[calc(100vh_-_32)] w-full flex-col items-center pb-16 text-lg text-neutral-500 sm:mt-24 md:px-4 lg:mt-32 lg:max-w-[1024px]">
         <Slot />
       </main>
     </>
