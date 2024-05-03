@@ -3,7 +3,7 @@ import Logo from "./logo.svg";
 
 export default component$(() => {
   return (
-    <div class="fixed z-10 -mt-16 flex h-16 w-full items-center justify-center bg-primary text-white sm:-mt-24 sm:h-24 lg:-mt-32  ">
+    <div class="fixed z-10 flex h-16 w-full items-center justify-center bg-primary text-white sm:h-24  ">
       <div class="container flex w-full flex-row items-center gap-4 px-2 md:px-4 lg:max-w-[1024px]">
         <img
           width={64}
