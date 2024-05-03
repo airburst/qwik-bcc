@@ -2,9 +2,9 @@
 import { Resource, component$, useResource$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { RideGroup } from "~/components/ride-group/ride-group";
+import mockData from "~/mocks/rides.json";
 import type { Group, Ride } from "~/types";
 import { formatDate, getNextWeek, groupRides } from "~/utils";
-import mockData from "../mocks/rides.json";
 
 export default component$(() => {
   const mockDelay = 500; // 1s
