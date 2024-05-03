@@ -45,9 +45,6 @@
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.2.1"
   },
-  "engines": {
-    "node": "^20.3.0 || >=21.0.0"
-  },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
   "trustedDependencies": [
