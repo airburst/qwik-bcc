@@ -1,0 +1,1 @@
+import{r as t,k as e,_ as i}from"./q-B9-6Ufzo.js";const n=t(e(()=>i(()=>import("./q-DusQcAWX.js"),[]),"s_NHFVTq0h9k4")),o={title:"Bath Cycling Club Rides",meta:[{name:"description",content:"View and join Bath Cycling Club rides"}]};export{n as default,o as head};
